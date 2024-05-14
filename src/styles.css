@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #353f40;
+  background-color: #272044;
 }
 
 .container {
@@ -16,6 +16,7 @@ section {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 
 header {
@@ -74,7 +75,7 @@ footer {
     url("../images/harbour.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0px;
+  padding: 100px 30px;
 }
 
 footer h3 {
